@@ -24,6 +24,8 @@
   "duration_of_flight",
   "section_break_ummua",
   "status",
+  "section_break_wucdo",
+  "add_ons",
   "amended_from"
  ],
  "fields": [
@@ -139,12 +141,22 @@
    "label": "Status",
    "options": "Booked\nChecked-In\nBoarded",
    "reqd": 1
+  },
+  {
+   "fieldname": "section_break_wucdo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "add_ons",
+   "fieldtype": "Table",
+   "label": "Add Ons",
+   "options": "Airplane Ticket Add-on Item"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-12-03 22:52:27.153961",
+ "modified": "2023-12-17 20:07:53.449266",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
  "name": "Airplane Ticket",
