@@ -12,23 +12,22 @@
   "status",
   "column_break_czgid",
   "flight",
+  "seat",
   "section_break_p3s99",
-  "source_airport",
   "source_airport_code",
   "column_break_ugymh",
-  "destination_airport",
   "destination_airport_code",
-  "section_break_nruc5",
-  "departure_date",
-  "departure_time",
-  "column_break_5ud6m",
-  "duration_of_flight",
   "section_break_wucdo",
   "add_ons",
   "section_break_kim5z",
   "flight_price",
   "column_break_qssv9",
   "total_amount",
+  "section_break_nruc5",
+  "departure_date",
+  "departure_time",
+  "column_break_5ud6m",
+  "duration_of_flight",
   "amended_from"
  ],
  "fields": [
@@ -41,23 +40,7 @@
    "reqd": 1
   },
   {
-   "fieldname": "source_airport",
-   "fieldtype": "Link",
-   "in_list_view": 1,
-   "label": "Source Airport",
-   "options": "Airport",
-   "reqd": 1
-  },
-  {
-   "fieldname": "destination_airport",
-   "fieldtype": "Link",
-   "in_list_view": 1,
-   "label": "Destination Airport",
-   "options": "Airport",
-   "reqd": 1
-  },
-  {
-   "fetch_from": "source_airport.code",
+   "fetch_from": "flight.source_airport_code",
    "fieldname": "source_airport_code",
    "fieldtype": "Data",
    "in_list_view": 1,
@@ -66,7 +49,7 @@
    "reqd": 1
   },
   {
-   "fetch_from": "destination_airport.code",
+   "fetch_from": "flight.destination_airport_code",
    "fieldname": "destination_airport_code",
    "fieldtype": "Data",
    "in_list_view": 1,
@@ -79,26 +62,32 @@
    "fieldtype": "Link",
    "in_list_view": 1,
    "label": "Flight",
-   "options": "Airplane",
+   "options": "Airplane Flight",
    "reqd": 1
   },
   {
+   "fetch_from": "flight.date_of_departure",
    "fieldname": "departure_date",
    "fieldtype": "Date",
    "in_standard_filter": 1,
    "label": "Departure Date",
+   "read_only": 1,
    "reqd": 1
   },
   {
+   "fetch_from": "flight.time_of_departure",
    "fieldname": "departure_time",
    "fieldtype": "Time",
    "label": "Departure Time",
+   "read_only": 1,
    "reqd": 1
   },
   {
+   "fetch_from": "flight.duration",
    "fieldname": "duration_of_flight",
    "fieldtype": "Duration",
    "label": "Duration of Flight",
+   "read_only": 1,
    "reqd": 1
   },
   {
@@ -170,12 +159,18 @@
    "fieldtype": "Currency",
    "label": "Total Amount",
    "read_only": 1
+  },
+  {
+   "fieldname": "seat",
+   "fieldtype": "Data",
+   "label": "Seat",
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-12-17 20:21:45.808817",
+ "modified": "2023-12-18 15:11:27.290148",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
  "name": "Airplane Ticket",
