@@ -4,6 +4,7 @@
 import frappe
 from frappe.model.document import Document
 import random
+from frappe.utils import flt
 
 class AirplaneTicket(Document):
 	def before_insert(self):
@@ -24,7 +25,7 @@ class AirplaneTicket(Document):
 		return sum(x.amount for x in self.add_ons) or 0
 
 	def calculate_total_amount(self):
-		self.total_amount = self.flight_price + self.total_add_ons_amount
+		self.total_amount = flt(self.flight_price) + flt(self.total_add_ons_amount)
 
 	def remove_duplicate_add_on_types(self):
 		unique_add_on_types = []
