@@ -8,10 +8,11 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "headquarters",
   "founding_year",
   "column_break_yptca",
   "customer_care_number",
-  "headquarters"
+  "website"
  ],
  "fields": [
   {
@@ -38,6 +39,12 @@
    "in_standard_filter": 1,
    "label": "Headquarters",
    "reqd": 1
+  },
+  {
+   "fieldname": "website",
+   "fieldtype": "Data",
+   "label": "Website",
+   "options": "URL"
   }
  ],
  "index_web_pages_for_search": 1,
@@ -47,7 +54,7 @@
    "link_fieldname": "airline"
   }
  ],
- "modified": "2023-12-03 22:57:31.126307",
+ "modified": "2024-01-21 16:29:52.244131",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
  "name": "Airline",
