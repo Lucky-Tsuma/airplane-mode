@@ -8,6 +8,7 @@ from frappe.utils import flt
 
 class AirplaneTicket(Document):
 	def before_insert(self):
+		self.check_plane_capacity()
 		self.seat = f'{random.randint(1, 99)}{random.choice("ABCDE")}'
 
 	def validate(self):
@@ -20,6 +21,13 @@ class AirplaneTicket(Document):
 	def before_submit(self):
 		if self.status != 'Boarded':
 			frappe.throw('Cannot submit ticket. Passenger is not on board')
+
+	def check_plane_capacity(self):
+		plane_capacity = frappe.db.get_all('Airplane Flight', filters = {'name': self.flight}, fields = ['airplane.capacity'])[0].get('capacity', 0)
+		number_of_tickets = frappe.db.get_all('Airplane Ticket', filters = {'flight': 'kenya-airways-001'}, fields = ['COUNT(name) AS number_of_tickets'])[0].get('number_of_tickets')
+
+		if int(number_of_tickets) + 1 > plane_capacity:
+			frappe.throw('Flight is fully booked')
 
 	def calculate_total_add_ons_amount(self):
 		return sum(x.amount for x in self.add_ons) or 0
