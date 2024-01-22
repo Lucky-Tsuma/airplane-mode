@@ -24,9 +24,9 @@ class AirplaneTicket(Document):
 
 	def check_plane_capacity(self):
 		plane_capacity = frappe.db.get_all('Airplane Flight', filters = {'name': self.flight}, fields = ['airplane.capacity'])[0].get('capacity', 0)
-		number_of_tickets = frappe.db.get_all('Airplane Ticket', filters = {'flight': 'kenya-airways-001'}, fields = ['COUNT(name) AS number_of_tickets'])[0].get('number_of_tickets')
+		number_of_tickets = frappe.db.get_all('Airplane Ticket', filters = {'flight': self.flight}, fields = ['COUNT(name) AS number_of_tickets'])[0].get('number_of_tickets')
 
-		if int(number_of_tickets) + 1 > plane_capacity:
+		if int(number_of_tickets) == int(plane_capacity):
 			frappe.throw('Flight is fully booked')
 
 	def calculate_total_add_ons_amount(self):
