@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_guest_to_view": 1,
+ "allow_import": 1,
  "allow_rename": 1,
  "autoname": "format: {airplane}-{MM}-{YYYY}-{#####}",
  "creation": "2023-12-18 13:48:02.887396",
@@ -150,7 +151,7 @@
    "link_fieldname": "flight"
   }
  ],
- "modified": "2024-01-22 15:30:47.372636",
+ "modified": "2024-01-24 12:08:37.222337",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
  "name": "Airplane Flight",

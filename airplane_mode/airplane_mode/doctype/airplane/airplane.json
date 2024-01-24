@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_import": 1,
  "allow_rename": 1,
  "autoname": "format: {airline}-{###}",
  "creation": "2023-12-03 21:26:15.067332",
@@ -54,7 +55,7 @@
    "link_fieldname": "airplane"
   }
  ],
- "modified": "2024-01-22 15:53:11.610914",
+ "modified": "2024-01-24 11:43:05.230783",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
  "name": "Airplane",
