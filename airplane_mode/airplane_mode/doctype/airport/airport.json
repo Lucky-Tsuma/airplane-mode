@@ -45,8 +45,13 @@
   }
  ],
  "index_web_pages_for_search": 1,
- "links": [],
- "modified": "2024-01-24 11:20:03.824739",
+ "links": [
+  {
+   "link_doctype": "Shop",
+   "link_fieldname": "airport"
+  }
+ ],
+ "modified": "2024-01-25 01:13:01.395393",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
  "name": "Airport",
