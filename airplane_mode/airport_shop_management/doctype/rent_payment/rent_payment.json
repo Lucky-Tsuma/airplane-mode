@@ -1,0 +1,141 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:PAY-{#####}",
+ "creation": "2024-01-25 00:46:13.576887",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_dsve",
+  "shop",
+  "tenant",
+  "column_break_nblc",
+  "payment_date",
+  "contract",
+  "section_break_jlzt",
+  "paid_amount",
+  "column_break_vxqj",
+  "payment_method",
+  "section_break_mdda",
+  "contract_terms_and_conditions",
+  "section_break_fuup",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_dsve",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Rent Payment",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "shop",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Shop",
+   "options": "Shop",
+   "reqd": 1
+  },
+  {
+   "fieldname": "tenant",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Tenant",
+   "options": "Tenant",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_nblc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Today",
+   "fieldname": "payment_date",
+   "fieldtype": "Date",
+   "label": "Payment Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "contract",
+   "fieldtype": "Link",
+   "label": "Contract",
+   "options": "Shop Contract",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_jlzt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "paid_amount",
+   "fieldtype": "Currency",
+   "label": "Paid Amount",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_vxqj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Cash",
+   "fieldname": "payment_method",
+   "fieldtype": "Select",
+   "label": "Payment Method",
+   "options": "Cash\nBank",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_mdda",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fetch_from": "contract.contract_terms_and_conditions",
+   "fieldname": "contract_terms_and_conditions",
+   "fieldtype": "Text Editor",
+   "label": "Contract Terms and Conditions",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_fuup",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-01-25 01:00:36.937535",
+ "modified_by": "Administrator",
+ "module": "airport shop management",
+ "name": "Rent Payment",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

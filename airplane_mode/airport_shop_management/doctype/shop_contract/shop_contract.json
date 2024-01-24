@@ -1,0 +1,145 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:SHP-CRT-{####}",
+ "creation": "2024-01-25 00:02:40.931941",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_3sno",
+  "shop",
+  "tenant",
+  "column_break_njje",
+  "lease_start_date",
+  "expiry_date",
+  "section_break_nazn",
+  "rent_amount",
+  "column_break_gdcm",
+  "status",
+  "section_break_xjsw",
+  "shop_contract_template",
+  "contract_terms_and_conditions",
+  "section_break_hzsd",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_3sno",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Shop Contract",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "shop",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Shop",
+   "options": "Shop",
+   "reqd": 1
+  },
+  {
+   "fieldname": "tenant",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Tenant",
+   "options": "Tenant",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_njje",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Today",
+   "fieldname": "lease_start_date",
+   "fieldtype": "Date",
+   "label": "Lease Start Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "expiry_date",
+   "fieldtype": "Date",
+   "label": "Expiry Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_nazn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "rent_amount",
+   "fieldtype": "Currency",
+   "label": "Rent Amount"
+  },
+  {
+   "fieldname": "column_break_gdcm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_hzsd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_xjsw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "shop_contract_template",
+   "fieldtype": "Link",
+   "label": "Shop Contract Template",
+   "options": "Shop Contract Template"
+  },
+  {
+   "fetch_from": "shop_contract_template.contract_terms_and_conditions",
+   "fieldname": "contract_terms_and_conditions",
+   "fieldtype": "Text Editor",
+   "label": "Contract Terms and Conditions"
+  },
+  {
+   "allow_on_submit": 1,
+   "default": "Ongoing",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Ongoing\nTerminated\nExpired"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-01-25 01:02:19.304203",
+ "modified_by": "Administrator",
+ "module": "airport shop management",
+ "name": "Shop Contract",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "search_fields": "shop, tenant",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
