@@ -79,7 +79,8 @@
   {
    "fieldname": "rent_amount",
    "fieldtype": "Currency",
-   "label": "Rent Amount"
+   "label": "Rent Amount",
+   "reqd": 1
   },
   {
    "fieldname": "column_break_gdcm",
@@ -117,7 +118,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-01-25 01:02:19.304203",
+ "modified": "2024-01-25 15:52:23.119058",
  "modified_by": "Administrator",
  "module": "airport shop management",
  "name": "Shop Contract",

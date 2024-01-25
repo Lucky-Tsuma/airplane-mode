@@ -12,6 +12,10 @@
   "column_break_nblc",
   "payment_date",
   "contract",
+  "lease_period_section",
+  "from_date",
+  "column_break_qspb",
+  "to_date",
   "section_break_jlzt",
   "paid_amount",
   "column_break_vxqj",
@@ -74,9 +78,11 @@
   },
   {
    "fieldname": "section_break_jlzt",
-   "fieldtype": "Section Break"
+   "fieldtype": "Section Break",
+   "label": "Payment Details"
   },
   {
+   "fetch_from": ".rent_amount",
    "fieldname": "paid_amount",
    "fieldtype": "Currency",
    "label": "Paid Amount",
@@ -109,12 +115,33 @@
   {
    "fieldname": "section_break_fuup",
    "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "lease_period_section",
+   "fieldtype": "Section Break",
+   "label": "Lease Period"
+  },
+  {
+   "fieldname": "from_date",
+   "fieldtype": "Date",
+   "label": "From Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_qspb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "to_date",
+   "fieldtype": "Date",
+   "label": "To Date",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-01-25 01:00:36.937535",
+ "modified": "2024-01-25 11:57:54.270980",
  "modified_by": "Administrator",
  "module": "airport shop management",
  "name": "Rent Payment",
