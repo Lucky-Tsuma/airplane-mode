@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"FqBXNk10yr\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Airplane Mode</span>\",\"col\":12}},{\"id\":\"TgLknA6uL6\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Airlines\",\"col\":3}},{\"id\":\"h56MMiyeSV\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"All Passengers\",\"col\":3}},{\"id\":\"DRyImfAudh\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Airplane\",\"col\":3}}]",
+ "content": "[{\"id\":\"FqBXNk10yr\",\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px; letter-spacing: 0.18px;\\\"><b>Quick Access</b></span>\",\"col\":12}},{\"id\":\"TgLknA6uL6\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Airlines\",\"col\":3}},{\"id\":\"h56MMiyeSV\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"All Passengers\",\"col\":3}},{\"id\":\"DRyImfAudh\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Airplane\",\"col\":3}},{\"id\":\"ZHWbSbvnuu\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Airports\",\"col\":3}},{\"id\":\"I8Xh2Qin0p\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"iK7BxSDg6d\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Reports &amp; Masters</b></span>\",\"col\":12}},{\"id\":\"ate87s7CR1\",\"type\":\"card\",\"data\":{\"card_name\":\"Airplane Mode\",\"col\":4}},{\"id\":\"no1rY6HcNf\",\"type\":\"card\",\"data\":{\"card_name\":\"Shop Management\",\"col\":4}},{\"id\":\"6XrxyHnhV1\",\"type\":\"card\",\"data\":{\"card_name\":\"Reports\",\"col\":4}}]",
  "creation": "2023-12-03 23:05:52.948238",
  "custom_blocks": [],
  "docstatus": 0,
@@ -10,8 +10,236 @@
  "idx": 0,
  "is_hidden": 0,
  "label": "Airplane Mode",
- "links": [],
- "modified": "2023-12-03 23:10:42.669357",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Airplane Mode",
+   "link_count": 9,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Airport",
+   "link_count": 0,
+   "link_to": "Airport",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Airline",
+   "link_count": 0,
+   "link_to": "Airline",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Airplane",
+   "link_count": 0,
+   "link_to": "Airplane",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Airplane Flight",
+   "link_count": 0,
+   "link_to": "Airplane Flight",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Airplane Ticket",
+   "link_count": 0,
+   "link_to": "Airplane Ticket",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Flight Passenger",
+   "link_count": 0,
+   "link_to": "Flight Passenger",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Airport Gate",
+   "link_count": 0,
+   "link_to": "Airport Gate",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Airplane Flight Add-On",
+   "link_count": 0,
+   "link_to": "Airplane Ticket Add-on Type",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Airplane Mode Settings",
+   "link_count": 0,
+   "link_to": "Airplane Mode Settings",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Shop Management",
+   "link_count": 5,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Shop",
+   "link_count": 0,
+   "link_to": "Shop",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Shop Contract",
+   "link_count": 0,
+   "link_to": "Shop Contract",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Tenant",
+   "link_count": 0,
+   "link_to": "Tenant",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Shop Contract Template",
+   "link_count": 0,
+   "link_to": "Shop Contract Template",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Rent Payment",
+   "link_count": 0,
+   "link_to": "Rent Payment",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Reports",
+   "link_count": 6,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Airplanes By Airline",
+   "link_count": 0,
+   "link_to": "Airplanes By Airline",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Add-On Popularity",
+   "link_count": 0,
+   "link_to": "Add-on Popularity",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Revenue By Airline",
+   "link_count": 0,
+   "link_to": "Revenue By Airline",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Passengers In Flight",
+   "link_count": 0,
+   "link_to": "Passengers In Flight",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Shop Availability",
+   "link_count": 0,
+   "link_to": "Shop Availability",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Monthly Shop Rent Payment",
+   "link_count": 0,
+   "link_to": "Monthly Shop Rent Payment",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2024-01-26 17:25:00.183036",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
  "name": "Airplane Mode",
@@ -23,6 +251,14 @@
  "roles": [],
  "sequence_id": 23.0,
  "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Airports",
+   "link_to": "Airport",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
   {
    "color": "Grey",
    "doc_view": "List",
