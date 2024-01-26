@@ -1,0 +1,10 @@
+{% if doc.available_for_lease %}
+<div class="jumbotron">
+	<p>Shop Name: {{ doc.shop_name }}</p>
+	<p>Airport: {{ doc.airport }}</p>
+	<p>Email: {{ doc.email }}</p>
+	<p>Phone: {{ doc.phone }}</p>
+	<a href="{{ frappe.get_url() }}/{{ doc.route }}">View Shop</a>
+</div>
+{% endif %}
+<!-- this is a sample default list template -->

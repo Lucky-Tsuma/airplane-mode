@@ -1,4 +1,5 @@
 import frappe
+from frappe import _
 
 def send_rent_due_notification():
     email_template = frappe.db.get_single_value('Airplane Mode Settings', 'due_rent_reminder_email_template')
@@ -16,8 +17,8 @@ def send_rent_due_notification():
             
             try:
                 frappe.sendmail(
-                    recipients = [contract.get("email")],
-                    subject = "Due Rent Notification",
+                    recipients = [context.get("email")],
+                    subject = _("Due Rent Notification"),
                     message = email_body
                 )
             except Exception as e:

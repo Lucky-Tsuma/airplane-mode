@@ -18,6 +18,7 @@
   "section_break_bfnw",
   "physical_address",
   "column_break_favd",
+  "route",
   "available_for_lease"
  ],
  "fields": [
@@ -97,12 +98,19 @@
    "fieldtype": "Data",
    "hidden": 1,
    "label": "Airport code"
+  },
+  {
+   "fieldname": "route",
+   "fieldtype": "Data",
+   "label": "Route"
   }
  ],
+ "has_web_view": 1,
  "image_field": "image",
  "index_web_pages_for_search": 1,
+ "is_published_field": "available_for_lease",
  "links": [],
- "modified": "2024-01-25 00:11:49.498910",
+ "modified": "2024-01-25 23:44:06.441076",
  "modified_by": "Administrator",
  "module": "airport shop management",
  "name": "Shop",
@@ -122,6 +130,7 @@
    "write": 1
   }
  ],
+ "route": "shops",
  "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
