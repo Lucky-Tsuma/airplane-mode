@@ -1,0 +1,41 @@
+{
+ "add_total_row": 1,
+ "columns": [
+  {
+   "fieldname": "airport",
+   "fieldtype": "Link",
+   "label": "Airport",
+   "options": "Airport",
+   "width": 300
+  },
+  {
+   "fieldname": "shop_count",
+   "fieldtype": "Int",
+   "label": "Shop Count",
+   "width": 150
+  }
+ ],
+ "creation": "2024-02-24 13:17:41.047309",
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "letterhead": null,
+ "modified": "2024-02-24 13:27:35.592969",
+ "modified_by": "Administrator",
+ "module": "airport shop management",
+ "name": "Shop Count Per Airport",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "query": "SELECT `tabShop`.`airport` AS 'airport',\n    COUNT(`tabShop`.`shop_name`) AS 'shop_count'\nFROM `tabShop` \nGROUP BY `tabShop`.`airport`;",
+ "ref_doctype": "Shop",
+ "report_name": "Shop Count Per Airport",
+ "report_type": "Query Report",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ]
+}
