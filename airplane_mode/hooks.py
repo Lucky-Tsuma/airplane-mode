@@ -7,6 +7,11 @@ app_description = "An airplane booking app"
 app_email = "tsuma@navari.co.ke"
 app_license = "MIT"
 
+
+# base-url/api/resource/<doctype-name>
+
+# Authorization: token apikey:apisecret
+
 # Includes in <head>
 # ------------------
 
@@ -130,11 +135,11 @@ app_license = "MIT"
 # ---------------
 
 scheduler_events = {
-    "cron": {
-        "0 0 1 1-12 *": [
-            "airplane_mode.airport_shop_management.doctype.shop_contract.due_rent_reminder.send_rent_due_notification"
-        ]
-    }
+    # "cron": {
+    #     "0 0 1 1-12 *": [
+    #         "airplane_mode.airport_shop_management.doctype.shop_contract.due_rent_reminder.send_rent_due_notification"
+    #     ]
+    # }
 	# "all": [
 	# 	"airplane_mode.tasks.all"
 	# ],
@@ -147,9 +152,9 @@ scheduler_events = {
 	# "weekly": [
 	# 	"airplane_mode.tasks.weekly"
 	# ],
-	# "monthly": [
-	# 	"airplane_mode.tasks.monthly"
-	# ],
+	"monthly": [
+		"airplane_mode.airport_shop_management.doctype.shop_contract.due_rent_reminder.send_rent_due_notification"
+	],
 }
 
 # Testing
