@@ -1,0 +1,5 @@
+[pre_model_sync]
+airplane_mode.airplane_mode.doctype.airplane.patches.add_audit_status_field #25 Feb 2024 10:51
+
+[post_model_sync]
+airplane_mode.airplane_mode.doctype.airplane.patches.update_audit_status_field #25 Feb 2024 10:51
