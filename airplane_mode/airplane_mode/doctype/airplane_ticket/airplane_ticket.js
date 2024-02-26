@@ -2,6 +2,11 @@
 // For license information, please see license.txt
 
 frappe.ui.form.on("Airplane Ticket", {
+    setup: function (frm) {
+        frappe.realtime.on("show_available_seats", (data) => {
+            frm.set_intro(`${data["available_seats"]} seats available`);
+        });
+    },
     refresh: function (frm) {
         frm.add_custom_button(
             __("Assign Seat"),

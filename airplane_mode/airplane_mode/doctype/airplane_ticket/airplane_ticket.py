@@ -22,12 +22,23 @@ class AirplaneTicket(Document):
 		if self.status != 'Boarded':
 			frappe.throw('Cannot submit ticket. Passenger is not on board')
 
+	def on_submit(self):
+		available_seats = self.show_available_seats()
+		frappe.publish_realtime('show_available_seats', { 'available_seats': available_seats })
+
 	def check_plane_capacity(self):
 		plane_capacity = frappe.db.get_all('Airplane Flight', filters = {'name': self.flight}, fields = ['airplane.capacity'])[0].get('capacity', 0)
 		number_of_tickets = frappe.db.get_all('Airplane Ticket', filters = {'flight': self.flight}, fields = ['COUNT(name) AS number_of_tickets'])[0].get('number_of_tickets')
 
 		if int(number_of_tickets) == int(plane_capacity):
 			frappe.throw('Flight is fully booked')
+
+	@frappe.whitelist()
+	def show_available_seats(self):
+		plane_capacity = frappe.db.get_all('Airplane Flight', filters = {'name': self.flight}, fields = ['airplane.capacity'])[0].get('capacity', 0)
+		number_of_tickets = frappe.db.get_all('Airplane Ticket', filters = {'flight': self.flight}, fields = ['COUNT(name) AS number_of_tickets'])[0].get('number_of_tickets')
+
+		return plane_capacity - number_of_tickets
 
 	def calculate_total_add_ons_amount(self):
 		return sum(x.amount for x in self.add_ons) or 0
