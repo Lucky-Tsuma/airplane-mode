@@ -8,7 +8,7 @@ frappe.ui.form.on("Airplane Flight", {
         });
     },
     onload: function (frm) {
-        if (frm.doc.docstatus == 0) {
+        if (!frm.doc.is_new() && frm.doc.docstatus == 0) {
             frappe
                 .call({
                     doc: frm.doc,
