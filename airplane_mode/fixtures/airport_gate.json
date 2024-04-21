@@ -1,0 +1,182 @@
+[
+ {
+  "airport": "Jomo Kenyatta International Airport",
+  "airport_code": "NBO",
+  "docstatus": 0,
+  "doctype": "Airport Gate",
+  "gate_number": "Gate A1",
+  "modified": "2024-04-21 15:44:50.860329",
+  "name": "Gate A1-Jomo Kenyatta International Airport"
+ },
+ {
+  "airport": "Jomo Kenyatta International Airport",
+  "airport_code": "NBO",
+  "docstatus": 0,
+  "doctype": "Airport Gate",
+  "gate_number": "Gate A2",
+  "modified": "2024-04-21 15:45:24.765673",
+  "name": "Gate A2-Jomo Kenyatta International Airport"
+ },
+ {
+  "airport": "Addis Ababa Bole International Airport",
+  "airport_code": "ADD",
+  "docstatus": 0,
+  "doctype": "Airport Gate",
+  "gate_number": "Gate B1",
+  "modified": "2024-04-21 15:45:56.950426",
+  "name": "Gate B1-Addis Ababa Bole International Airport"
+ },
+ {
+  "airport": "Addis Ababa Bole International Airport",
+  "airport_code": "ADD",
+  "docstatus": 0,
+  "doctype": "Airport Gate",
+  "gate_number": "Gate B2",
+  "modified": "2024-04-21 15:46:21.618591",
+  "name": "Gate B2-Addis Ababa Bole International Airport"
+ },
+ {
+  "airport": "Julius Nyerere International Airport",
+  "airport_code": "DAR",
+  "docstatus": 0,
+  "doctype": "Airport Gate",
+  "gate_number": "Gate C1",
+  "modified": "2024-04-21 15:47:04.458871",
+  "name": "Gate C1-Julius Nyerere International Airport"
+ },
+ {
+  "airport": "Julius Nyerere International Airport",
+  "airport_code": "DAR",
+  "docstatus": 0,
+  "doctype": "Airport Gate",
+  "gate_number": "Gate C2",
+  "modified": "2024-04-21 15:47:24.845959",
+  "name": "Gate C2-Julius Nyerere International Airport"
+ },
+ {
+  "airport": "Entebbe International Airport",
+  "airport_code": "EBB",
+  "docstatus": 0,
+  "doctype": "Airport Gate",
+  "gate_number": "Gate D1",
+  "modified": "2024-04-21 15:47:51.058890",
+  "name": "Gate D1-Entebbe International Airport"
+ },
+ {
+  "airport": "Entebbe International Airport",
+  "airport_code": "EBB",
+  "docstatus": 0,
+  "doctype": "Airport Gate",
+  "gate_number": "Gate D2",
+  "modified": "2024-04-21 15:48:09.507562",
+  "name": "Gate D2-Entebbe International Airport"
+ },
+ {
+  "airport": "Moi International Airport",
+  "airport_code": "MBA",
+  "docstatus": 0,
+  "doctype": "Airport Gate",
+  "gate_number": "Gate E1",
+  "modified": "2024-04-21 15:48:27.742846",
+  "name": "Gate E1-Moi International Airport"
+ },
+ {
+  "airport": "Moi International Airport",
+  "airport_code": "MBA",
+  "docstatus": 0,
+  "doctype": "Airport Gate",
+  "gate_number": "Gate E2",
+  "modified": "2024-04-21 15:48:39.948505",
+  "name": "Gate E2-Moi International Airport"
+ },
+ {
+  "airport": "Kilimanjaro International Airport",
+  "airport_code": "JRO",
+  "docstatus": 0,
+  "doctype": "Airport Gate",
+  "gate_number": "Gate F1",
+  "modified": "2024-04-21 15:49:07.462362",
+  "name": "Gate F1-Kilimanjaro International Airport"
+ },
+ {
+  "airport": "Kilimanjaro International Airport",
+  "airport_code": "JRO",
+  "docstatus": 0,
+  "doctype": "Airport Gate",
+  "gate_number": "Gate F2",
+  "modified": "2024-04-21 15:49:24.256433",
+  "name": "Gate F2-Kilimanjaro International Airport"
+ },
+ {
+  "airport": "Kigali International Airport",
+  "airport_code": "KGL",
+  "docstatus": 0,
+  "doctype": "Airport Gate",
+  "gate_number": "Gate G1",
+  "modified": "2024-04-21 15:51:17.833025",
+  "name": "Gate G1-Kigali International Airport"
+ },
+ {
+  "airport": "Kigali International Airport",
+  "airport_code": "KGL",
+  "docstatus": 0,
+  "doctype": "Airport Gate",
+  "gate_number": "Gate G2",
+  "modified": "2024-04-21 15:51:32.337016",
+  "name": "Gate G2-Kigali International Airport"
+ },
+ {
+  "airport": "Bole Alula Aba Nega Airport",
+  "airport_code": "SZE",
+  "docstatus": 0,
+  "doctype": "Airport Gate",
+  "gate_number": "Gate H1",
+  "modified": "2024-04-21 15:51:54.757799",
+  "name": "Gate H1-Bole Alula Aba Nega Airport"
+ },
+ {
+  "airport": "Bole Alula Aba Nega Airport",
+  "airport_code": "SZE",
+  "docstatus": 0,
+  "doctype": "Airport Gate",
+  "gate_number": "Gate H2",
+  "modified": "2024-04-21 15:52:07.603757",
+  "name": "Gate H2-Bole Alula Aba Nega Airport"
+ },
+ {
+  "airport": "Zanzibar International Airport",
+  "airport_code": "ZNZ",
+  "docstatus": 0,
+  "doctype": "Airport Gate",
+  "gate_number": "Gate I1",
+  "modified": "2024-04-21 15:52:30.147690",
+  "name": "Gate I1-Zanzibar International Airport"
+ },
+ {
+  "airport": "Zanzibar International Airport",
+  "airport_code": "ZNZ",
+  "docstatus": 0,
+  "doctype": "Airport Gate",
+  "gate_number": "Gate I2",
+  "modified": "2024-04-21 15:52:44.274919",
+  "name": "Gate I2-Zanzibar International Airport"
+ },
+ {
+  "airport": "Kigoma Airport",
+  "airport_code": "TKQ",
+  "docstatus": 0,
+  "doctype": "Airport Gate",
+  "gate_number": "Gate J1",
+  "modified": "2024-04-21 15:53:09.149845",
+  "name": "Gate J1-Kigoma Airport"
+ },
+ {
+  "airport": "Kigoma Airport",
+  "airport_code": "TKQ",
+  "docstatus": 0,
+  "doctype": "Airport Gate",
+  "gate_number": "Gate J2",
+  "modified": "2024-04-21 15:53:22.675432",
+  "name": "Gate J2-Kigoma Airport"
+ }
+]

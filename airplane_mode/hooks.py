@@ -10,7 +10,9 @@ app_license = "MIT"
 fixtures = [
     "Airport",
     "Airline",
-    "Airplane"
+    "Airplane",
+    "Flight Passenger",
+    "Airport Gate"
 ]
 
 # base-url/api/resource/<doctype-name>

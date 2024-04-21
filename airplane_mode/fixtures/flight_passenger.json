@@ -1,0 +1,102 @@
+[
+ {
+  "date_of_birth": "1985-07-12",
+  "docstatus": 0,
+  "doctype": "Flight Passenger",
+  "first_name": "Grace",
+  "full_name": "Grace Mwangi",
+  "last_name": "Mwangi",
+  "modified": "2024-04-21 14:09:06.680220",
+  "name": 1
+ },
+ {
+  "date_of_birth": "1990-04-25",
+  "docstatus": 0,
+  "doctype": "Flight Passenger",
+  "first_name": "Abiy",
+  "full_name": "Abiy Tekle",
+  "last_name": "Tekle",
+  "modified": "2024-04-21 14:08:40.854027",
+  "name": 2
+ },
+ {
+  "date_of_birth": "1988-11-30",
+  "docstatus": 0,
+  "doctype": "Flight Passenger",
+  "first_name": "Fatima",
+  "full_name": "Fatima Kimaro",
+  "last_name": "Kimaro",
+  "modified": "2024-04-21 14:01:31.622299",
+  "name": 3
+ },
+ {
+  "date_of_birth": "1993-09-17",
+  "docstatus": 0,
+  "doctype": "Flight Passenger",
+  "first_name": "Isaac",
+  "full_name": "Isaac Okech",
+  "last_name": "Okech",
+  "modified": "2024-04-21 14:10:21.632896",
+  "name": 4
+ },
+ {
+  "date_of_birth": "1980-03-08",
+  "docstatus": 0,
+  "doctype": "Flight Passenger",
+  "first_name": "Jean",
+  "full_name": "Jean Mukamana",
+  "last_name": "Mukamana",
+  "modified": "2024-04-21 14:11:00.071173",
+  "name": 5
+ },
+ {
+  "date_of_birth": "1996-12-20",
+  "docstatus": 0,
+  "doctype": "Flight Passenger",
+  "first_name": "Faith",
+  "full_name": "Faith Kamau",
+  "last_name": "Kamau",
+  "modified": "2024-04-21 14:11:39.293352",
+  "name": 6
+ },
+ {
+  "date_of_birth": "1987-06-15",
+  "docstatus": 0,
+  "doctype": "Flight Passenger",
+  "first_name": "Hassan",
+  "full_name": "Hassan Njoroge",
+  "last_name": "Njoroge",
+  "modified": "2024-04-21 14:12:14.649671",
+  "name": 7
+ },
+ {
+  "date_of_birth": "1974-09-03",
+  "docstatus": 0,
+  "doctype": "Flight Passenger",
+  "first_name": "Jane",
+  "full_name": "Jane Wanjiku",
+  "last_name": "Wanjiku",
+  "modified": "2024-04-21 14:12:46.878014",
+  "name": 8
+ },
+ {
+  "date_of_birth": "1982-02-18",
+  "docstatus": 0,
+  "doctype": "Flight Passenger",
+  "first_name": "Meseret",
+  "full_name": "Meseret Assefa",
+  "last_name": "Assefa",
+  "modified": "2024-04-21 14:13:19.494215",
+  "name": 9
+ },
+ {
+  "date_of_birth": "1999-10-10",
+  "docstatus": 0,
+  "doctype": "Flight Passenger",
+  "first_name": "Patrick",
+  "full_name": "Patrick Okello",
+  "last_name": "Okello",
+  "modified": "2024-04-21 14:13:54.552623",
+  "name": 10
+ }
+]
