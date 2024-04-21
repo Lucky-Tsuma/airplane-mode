@@ -1,0 +1,102 @@
+[
+ {
+  "customer_care_number": "+254203274747",
+  "docstatus": 0,
+  "doctype": "Airline",
+  "founding_year": 1977,
+  "headquarters": "Nairobi, Kenya",
+  "modified": "2024-04-21 13:15:15.343078",
+  "name": "Kenya Airways",
+  "website": "https://www.kenya-airways.com/"
+ },
+ {
+  "customer_care_number": "+251116179900",
+  "docstatus": 0,
+  "doctype": "Airline",
+  "founding_year": 1945,
+  "headquarters": "Addis Ababa, Ethiopia",
+  "modified": "2024-04-21 13:19:50.189166",
+  "name": "Ethiopian Airlines",
+  "website": "https://www.ethiopianairlines.com/"
+ },
+ {
+  "customer_care_number": "+255222117404",
+  "docstatus": 0,
+  "doctype": "Airline",
+  "founding_year": 1977,
+  "headquarters": "Dar es Salaam, Tanzania",
+  "modified": "2024-04-21 13:19:36.706979",
+  "name": "Air Tanzania",
+  "website": "https://www.airtanzania.co.tz/"
+ },
+ {
+  "customer_care_number": "+256414333000",
+  "docstatus": 0,
+  "doctype": "Airline",
+  "founding_year": 1976,
+  "headquarters": "Entebbe, Uganda",
+  "modified": "2024-04-21 13:21:03.298239",
+  "name": "Uganda Airlines",
+  "website": "https://www.ugandairlines.com/"
+ },
+ {
+  "customer_care_number": "+250788177000",
+  "docstatus": 0,
+  "doctype": "Airline",
+  "founding_year": 2002,
+  "headquarters": "Kigali, Rwanda",
+  "modified": "2024-04-21 13:22:01.743948",
+  "name": "RwandAir",
+  "website": "https://www.rwandair.com/"
+ },
+ {
+  "customer_care_number": "+255222195000",
+  "docstatus": 0,
+  "doctype": "Airline",
+  "founding_year": 1993,
+  "headquarters": "Dar es Salaam, Tanzania",
+  "modified": "2024-04-21 13:23:02.916422",
+  "name": "Precision Air",
+  "website": "https://www.precisionairtz.com/"
+ },
+ {
+  "customer_care_number": "+254711540540",
+  "docstatus": 0,
+  "doctype": "Airline",
+  "founding_year": 2006,
+  "headquarters": "Nairobi, Kenya",
+  "modified": "2024-04-21 13:24:08.678598",
+  "name": "Fly540",
+  "website": "https://www.fly540.com/"
+ },
+ {
+  "customer_care_number": "+254711024545",
+  "docstatus": 0,
+  "doctype": "Airline",
+  "founding_year": 2014,
+  "headquarters": "Nairobi, Kenya",
+  "modified": "2024-04-21 13:25:18.129969",
+  "name": "Jambojet",
+  "website": "https://www.jambojet.com/"
+ },
+ {
+  "customer_care_number": "+254203916000",
+  "docstatus": 0,
+  "doctype": "Airline",
+  "founding_year": 1987,
+  "headquarters": "Nairobi, Kenya",
+  "modified": "2024-04-21 13:26:28.845029",
+  "name": "Air Kenya",
+  "website": "https://www.airkenya.com/"
+ },
+ {
+  "customer_care_number": "+255-784-108-900",
+  "docstatus": 0,
+  "doctype": "Airline",
+  "founding_year": 2012,
+  "headquarters": "Dar es Salaam, Tanzania",
+  "modified": "2024-04-21 13:29:24.048924",
+  "name": "Fastjet Tanzania",
+  "website": "https://www.fastjet.com/tz/"
+ }
+]

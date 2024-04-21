@@ -1,0 +1,102 @@
+[
+ {
+  "airline": "Kenya Airways",
+  "capacity": 242,
+  "docstatus": 0,
+  "doctype": "Airplane",
+  "initial_audit_completed": 0,
+  "model": "Boeing 787 Dreamliner",
+  "modified": "2024-04-21 13:35:06.599625",
+  "name": "Kenya Airways-001"
+ },
+ {
+  "airline": "Ethiopian Airlines",
+  "capacity": 315,
+  "docstatus": 0,
+  "doctype": "Airplane",
+  "initial_audit_completed": 0,
+  "model": "Airbus A350-900",
+  "modified": "2024-04-21 13:36:00.776576",
+  "name": "Ethiopian Airlines-002"
+ },
+ {
+  "airline": "Air Tanzania",
+  "capacity": 78,
+  "docstatus": 0,
+  "doctype": "Airplane",
+  "initial_audit_completed": 0,
+  "model": "Bombardier Dash 8 Q400",
+  "modified": "2024-04-21 13:36:35.738707",
+  "name": "Air Tanzania-003"
+ },
+ {
+  "airline": "Uganda Airlines",
+  "capacity": 76,
+  "docstatus": 0,
+  "doctype": "Airplane",
+  "initial_audit_completed": 0,
+  "model": "Bombardier CRJ900",
+  "modified": "2024-04-21 13:37:02.237863",
+  "name": "Uganda Airlines-004"
+ },
+ {
+  "airline": "RwandAir",
+  "capacity": 277,
+  "docstatus": 0,
+  "doctype": "Airplane",
+  "initial_audit_completed": 0,
+  "model": "Airbus A330-300",
+  "modified": "2024-04-21 13:37:34.051112",
+  "name": "RwandAir-005"
+ },
+ {
+  "airline": "Precision Air",
+  "capacity": 70,
+  "docstatus": 0,
+  "doctype": "Airplane",
+  "initial_audit_completed": 0,
+  "model": "ATR 72-500",
+  "modified": "2024-04-21 13:38:12.853397",
+  "name": "Precision Air-006"
+ },
+ {
+  "airline": "Fly540",
+  "capacity": 50,
+  "docstatus": 0,
+  "doctype": "Airplane",
+  "initial_audit_completed": 0,
+  "model": "Bombardier Dash 8 Q300",
+  "modified": "2024-04-21 13:38:47.211240",
+  "name": "Fly540-007"
+ },
+ {
+  "airline": "Jambojet",
+  "capacity": 148,
+  "docstatus": 0,
+  "doctype": "Airplane",
+  "initial_audit_completed": 0,
+  "model": "Boeing 737-300",
+  "modified": "2024-04-21 13:40:27.270188",
+  "name": "Jambojet-008"
+ },
+ {
+  "airline": "Air Kenya",
+  "capacity": 9,
+  "docstatus": 0,
+  "doctype": "Airplane",
+  "initial_audit_completed": 0,
+  "model": "Cessna 208 Caravan",
+  "modified": "2024-04-21 13:40:57.366255",
+  "name": "Air Kenya-009"
+ },
+ {
+  "airline": "Fastjet Tanzania",
+  "capacity": 156,
+  "docstatus": 0,
+  "doctype": "Airplane",
+  "initial_audit_completed": 0,
+  "model": "Airbus A319",
+  "modified": "2024-04-21 13:41:37.797782",
+  "name": "Fastjet Tanzania-010"
+ }
+]

@@ -1,0 +1,92 @@
+[
+ {
+  "city": "Nairobi, Kenya",
+  "code": "NBO",
+  "country": "Kenya",
+  "docstatus": 0,
+  "doctype": "Airport",
+  "modified": "2024-04-21 12:58:14.057081",
+  "name": "Jomo Kenyatta International Airport"
+ },
+ {
+  "city": "Addis Ababa, Ethiopia",
+  "code": "ADD",
+  "country": "Ethiopia",
+  "docstatus": 0,
+  "doctype": "Airport",
+  "modified": "2024-04-21 12:59:16.488089",
+  "name": "Addis Ababa Bole International Airport"
+ },
+ {
+  "city": "Dar es Salaam, Tanzania",
+  "code": "DAR",
+  "country": "Tanzania",
+  "docstatus": 0,
+  "doctype": "Airport",
+  "modified": "2024-04-21 13:00:45.305956",
+  "name": "Julius Nyerere International Airport"
+ },
+ {
+  "city": "Entebbe, Uganda",
+  "code": "EBB",
+  "country": "Uganda",
+  "docstatus": 0,
+  "doctype": "Airport",
+  "modified": "2024-04-21 13:01:30.851881",
+  "name": "Entebbe International Airport"
+ },
+ {
+  "city": "Mombasa, Kenya",
+  "code": "MBA",
+  "country": "Kenya",
+  "docstatus": 0,
+  "doctype": "Airport",
+  "modified": "2024-04-21 13:02:18.998950",
+  "name": "Moi International Airport"
+ },
+ {
+  "city": "Kilimanjaro, Tanzania",
+  "code": "JRO",
+  "country": "Tanzania",
+  "docstatus": 0,
+  "doctype": "Airport",
+  "modified": "2024-04-21 13:03:33.873392",
+  "name": "Kilimanjaro International Airport"
+ },
+ {
+  "city": "Kigali, Rwanda",
+  "code": "KGL",
+  "country": "Rwanda",
+  "docstatus": 0,
+  "doctype": "Airport",
+  "modified": "2024-04-21 13:04:14.730371",
+  "name": "Kigali International Airport"
+ },
+ {
+  "city": "Semera, Ethiopia",
+  "code": "SZE",
+  "country": "Ethiopia",
+  "docstatus": 0,
+  "doctype": "Airport",
+  "modified": "2024-04-21 13:05:19.202020",
+  "name": "Bole Alula Aba Nega Airport"
+ },
+ {
+  "city": "Zanzibar City, Tanzania",
+  "code": "ZNZ",
+  "country": "Tanzania",
+  "docstatus": 0,
+  "doctype": "Airport",
+  "modified": "2024-04-21 13:06:04.790834",
+  "name": "Zanzibar International Airport"
+ },
+ {
+  "city": "Kigoma, Tanzania",
+  "code": "TKQ",
+  "country": "Tanzania",
+  "docstatus": 0,
+  "doctype": "Airport",
+  "modified": "2024-04-21 13:06:52.568468",
+  "name": "Kigoma Airport"
+ }
+]

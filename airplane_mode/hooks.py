@@ -4,9 +4,14 @@ app_name = "airplane_mode"
 app_title = "Airplane Mode"
 app_publisher = "Lucky Tsuma"
 app_description = "An airplane booking app"
-app_email = "tsuma@navari.co.ke"
+app_email = "tsumahmumba@gmail.com"
 app_license = "MIT"
 
+fixtures = [
+    "Airport",
+    "Airline",
+    "Airplane"
+]
 
 # base-url/api/resource/<doctype-name>
 
