@@ -22,6 +22,7 @@
   "departure_details_section",
   "date_of_departure",
   "duration",
+  "departure_gate",
   "column_break_r1bmz",
   "time_of_departure",
   "amended_from",
@@ -151,6 +152,14 @@
    "fieldtype": "Table",
    "label": "Crew Members",
    "options": "Crew Member"
+  },
+  {
+   "depends_on": "eval: doc.source_airport",
+   "fieldname": "departure_gate",
+   "fieldtype": "Link",
+   "label": "Departure gate",
+   "mandatory_depends_on": "eval: doc.source_airport",
+   "options": "Airport Gate"
   }
  ],
  "has_web_view": 1,
@@ -163,7 +172,7 @@
    "link_fieldname": "flight"
   }
  ],
- "modified": "2024-02-24 13:03:21.776739",
+ "modified": "2024-04-21 16:40:46.235989",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
  "name": "Airplane Flight",

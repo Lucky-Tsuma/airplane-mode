@@ -8,15 +8,22 @@ frappe.ui.form.on("Airplane Flight", {
         });
     },
     onload: function (frm) {
-        if (!frm.doc.is_new() && frm.doc.docstatus == 0) {
-            frappe
-                .call({
-                    doc: frm.doc,
-                    method: "show_remaining_seats",
-                })
-                .then((r) => {
-                    frm.set_intro(`${r["message"]} seats available`);
-                });
+        frm.set_query('departure_gate', () => {
+            return {
+                filters: {
+                    'airport': frm.doc.source_airport
+                }
+            }
+        })
+        
+        // under review - check if a form has been saved before
+        if (frm.doc.docstatus === 0 && !frm.doc._islocal) {
+            frappe.call({
+                doc: frm.doc,
+                method: "show_remaining_seats",
+            }).then((r) => {
+                frm.set_intro(`${r["message"]} seats available`);
+            })
         }
     },
 });
