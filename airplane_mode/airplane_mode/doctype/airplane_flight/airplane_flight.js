@@ -16,8 +16,7 @@ frappe.ui.form.on("Airplane Flight", {
             }
         })
         
-        // under review - check if a form has been saved before
-        if (frm.doc.docstatus === 0 && !frm.doc._islocal) {
+        if (!frm.doc.__unsaved) {
             frappe.call({
                 doc: frm.doc,
                 method: "show_remaining_seats",
