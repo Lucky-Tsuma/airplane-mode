@@ -1,7 +1,8 @@
 {
  "actions": [],
  "allow_import": 1,
- "autoname": "autoincrement",
+ "allow_rename": 1,
+ "autoname": "format:{email}",
  "creation": "2023-12-03 21:49:01.870540",
  "default_view": "List",
  "doctype": "DocType",
@@ -11,7 +12,8 @@
   "first_name",
   "last_name",
   "full_name",
-  "date_of_birth"
+  "date_of_birth",
+  "email"
  ],
  "fields": [
   {
@@ -39,6 +41,17 @@
    "fieldtype": "Data",
    "label": "Full Name",
    "read_only": 1
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Email",
+   "options": "Email",
+   "reqd": 1,
+   "unique": 1
   }
  ],
  "index_web_pages_for_search": 1,
@@ -48,11 +61,11 @@
    "link_fieldname": "passenger"
   }
  ],
- "modified": "2024-01-24 16:49:15.398353",
+ "modified": "2024-08-16 07:46:08.357321",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
  "name": "Flight Passenger",
- "naming_rule": "Autoincrement",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {
