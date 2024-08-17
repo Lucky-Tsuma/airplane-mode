@@ -16,6 +16,14 @@ frappe.ui.form.on("Airplane Flight", {
             };
         });
 
+        frm.set_query("crew_member", "crew_member", () => {
+            return {
+                filters: {
+                    airline: frm.doc.airline,
+                },
+            };
+        });
+
         if (!frm.doc.__unsaved) {
             frappe
                 .call({

@@ -1,0 +1,58 @@
+[
+ {
+  "designation": "Captain",
+  "docstatus": 0,
+  "doctype": "Crew Designation",
+  "modified": "2024-08-17 21:24:53.300713",
+  "name": "Captain"
+ },
+ {
+  "designation": "First Officer",
+  "docstatus": 0,
+  "doctype": "Crew Designation",
+  "modified": "2024-08-17 21:25:16.708638",
+  "name": "First Officer"
+ },
+ {
+  "designation": "Second Officer",
+  "docstatus": 0,
+  "doctype": "Crew Designation",
+  "modified": "2024-08-17 21:25:47.387554",
+  "name": "Second Officer"
+ },
+ {
+  "designation": "Flight Engineer",
+  "docstatus": 0,
+  "doctype": "Crew Designation",
+  "modified": "2024-08-17 21:26:06.606706",
+  "name": "Flight Engineer"
+ },
+ {
+  "designation": "Purser/Inflight Supervisor",
+  "docstatus": 0,
+  "doctype": "Crew Designation",
+  "modified": "2024-08-17 21:26:39.135005",
+  "name": "Purser/Inflight Supervisor"
+ },
+ {
+  "designation": "Flight Attendant",
+  "docstatus": 0,
+  "doctype": "Crew Designation",
+  "modified": "2024-08-17 21:26:58.851540",
+  "name": "Flight Attendant"
+ },
+ {
+  "designation": "Senior Flight Attendant",
+  "docstatus": 0,
+  "doctype": "Crew Designation",
+  "modified": "2024-08-17 21:27:17.583786",
+  "name": "Senior Flight Attendant"
+ },
+ {
+  "designation": "Flight Medic",
+  "docstatus": 0,
+  "doctype": "Crew Designation",
+  "modified": "2024-08-17 21:27:40.609866",
+  "name": "Flight Medic"
+ }
+]
