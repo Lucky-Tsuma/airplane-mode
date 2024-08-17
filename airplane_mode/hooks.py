@@ -7,7 +7,7 @@ app_description = "An airplane booking app"
 app_email = "tsumahmumba@gmail.com"
 app_license = "MIT"
 
-fixtures = ["Airport", "Airline", "Airplane", "Flight Passenger", "Airport Gate"]
+fixtures = ["Airport", "Airline", "Airplane", "Flight Passenger", "Airport Gate", "Crew Designation"]
 
 # base-url/api/resource/<doctype-name>
 

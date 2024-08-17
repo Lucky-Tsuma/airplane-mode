@@ -11,6 +11,7 @@
  "engine": "InnoDB",
  "field_order": [
   "airplane",
+  "airline",
   "column_break_pivfb",
   "status",
   "airport_details_section",
@@ -28,8 +29,8 @@
   "amended_from",
   "route",
   "published",
-  "section_break_jxty",
-  "crew_members"
+  "section_break_kpjz",
+  "crew_member"
  ],
  "fields": [
   {
@@ -144,22 +145,32 @@
    "label": "Published"
   },
   {
-   "fieldname": "section_break_jxty",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "crew_members",
-   "fieldtype": "Table",
-   "label": "Crew Members",
-   "options": "Crew Member"
-  },
-  {
    "depends_on": "eval: doc.source_airport",
    "fieldname": "departure_gate",
    "fieldtype": "Link",
    "label": "Departure gate",
    "mandatory_depends_on": "eval: doc.source_airport",
    "options": "Airport Gate"
+  },
+  {
+   "fieldname": "section_break_kpjz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "depends_on": "eval: doc.airline",
+   "fieldname": "crew_member",
+   "fieldtype": "Table",
+   "label": "Crew Member",
+   "options": "Flight Crew Member"
+  },
+  {
+   "fetch_from": "airplane.airline",
+   "fieldname": "airline",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Airline",
+   "options": "Airline",
+   "read_only": 1
   }
  ],
  "has_web_view": 1,
@@ -172,7 +183,7 @@
    "link_fieldname": "flight"
   }
  ],
- "modified": "2024-04-21 16:40:46.235989",
+ "modified": "2024-08-17 23:01:36.198614",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
  "name": "Airplane Flight",
