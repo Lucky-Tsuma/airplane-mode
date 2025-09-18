@@ -1,9 +1,9 @@
 from . import __version__ as app_version
 
-app_name = "airplane_mode"
-app_title = "Airplane Mode"
+app_name = "airport_management"
+app_title = "Airport Management"
 app_publisher = "Lucky Tsuma"
-app_description = "An airplane booking app"
+app_description = "An app for managing airport operations"
 app_email = "tsumahmumba@gmail.com"
 app_license = "MIT"
 
